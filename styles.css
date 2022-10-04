@@ -78,3 +78,51 @@ label {
 .loss {
   color: red;
 }
+.hidden {
+  display: none;
+}
+/* ////////////////////////////////// */
+.overlay {
+  margin: 0 auto;
+  border: 0.5px solid black;
+  border-radius: 10px;
+  width: 400px;
+  height: 247.2135955px;
+  text-align: center;
+
+  position: fixed; /* Sit on top of the page content */
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+
+  background-color: rgba(
+    82,
+    25,
+    187,
+    0.752
+  ); /* Black background with opacity */
+  z-index: 10;
+}
+.overlay h2 {
+  margin: 2rem;
+  color: #fff;
+}
+.overlay button {
+  border-radius: 10px;
+  font-family: inherit;
+  padding: 1rem;
+  width: 60%;
+  margin: auto auto;
+}
+.backdrop {
+  background-color: #22ce9555;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+}
+/* //////////////////////////////////////////////// */
